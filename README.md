@@ -37,7 +37,7 @@ Voce ira aprender:
 <img src="README\images\cMD.png" alt="Screen" width="950" height="400">
 <li>Copie o path da pasta _esp32</li>
 <img src="README\images\FIle.png" alt="Screen" width="751" height="268">
-<li>Abra uma linha de comando e navegue até o diretório da pasta.</li>
+<li>Abra uma linha de comando no cmd e navegue até o diretório da pasta usando o comando <code>cd</code> + <code>nome da pasta</code>.</li>
 </ol>
-
+<img src="README\images\ezgif.com-gif-maker (1).gif" alt="Screen" width="1366" height="768">
 </p>
