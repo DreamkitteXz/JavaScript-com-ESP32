@@ -18,8 +18,16 @@ Voce ira aprender:
 </ul>
 <div>
     <h2>Começando...</h2>
-    <p>Para poder usar o <a href="https://github.com/espruino/Espruino">Espruino</a>, precisaremos atualizar nosso ESP32 com o firmware adequado. Os arquivos binários com o firmware podem ser obtidos <a href="https://github.com/espruino/Espruino">aqui</a>. após acessar o site faça o dowload do Espruino.</p>
-    <img src="README\images\Espruino_screen.png" alt="Girl in a jacket" width="600" height="300">
+      <h3>Instalando os Drivers</h3>
+      <p>Antes de atualizarmos o firmware precisamos instalar o driver <a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloadso">CP210x VCP</a>. *Obs: Se você já possui o driver  instalado pule essa etapa..</p>
+    <h3>Baixando os arquivos do Firmware</h3>
+      <p>Para poder usar o <a href="https://github.com/espruino/Espruino">Espruino</a>, precisaremos atualizar nosso ESP32 com o firmware adequado. Os arquivos binários com o firmware podem ser obtidos <a href="http://www.espruino.com/Download">aqui</a>. após acessar o site faça o dowload do Espruino.</p>
+      <img src="README\images\Espruino_screen.png" alt="Screen" width="700" height="300">
+      <p>Um arquivo .zip será baixado, dentro desse arquivo devemos extrair a pasta referente ao ESP32, geralmente o final dessa pasta termina com _esp32, conforme vemos na Figura 3.</p>
+   <h3>Atualizando o Firmware</h3>
+   <p>A maneira mais fácil de atualizar o firmware é usando o <a href="https://docs.espressif.com/projects/esptool/en/latest/esp32/">esptool</a>, uma ferramenta Python da <a href="https://www.espressif.com/en">Espressif</a> que nos permite atualizar o firmware no ESP32.</p>
+   <p>Conforme indicado na documentação do <a href="https://github.com/espressif/esptool">repositório GitHub</a> do esptool , precisamos ter <a href="https://www.python.org/downloads/">Python 2.7</a>, <a href="https://www.python.org/downloads/">Python 3.4</a> ou uma versão superior instalada. Para instalar o esptool basta enviar o seguinte comando na linha de comando do Windows: </p>
+   <p><code>pip install esptool</code></p>
 </div>
 
 </p>
