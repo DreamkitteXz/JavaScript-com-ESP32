@@ -11,9 +11,14 @@
 <p>
 Voce ira aprender:
 <ul>
-    <li>Instalar os drivers necessarios</li>  
+    <li>Instalar os drivers necessarios.</li>  
 	<li>Como atualizar o ESP32 com o firmware mais recente do <a href="https://github.com/espruino/Espruino">Espruino</a>.</li>
-	<li>Executar um JavaScript basico no ESP32</li>
-	<li>Piscar um Led usando JavaScript no ESP32</li>
+	<li>Executar um JavaScript basico no ESP32.</li>
+	<li>Piscar um Led usando JavaScript no ESP32.</li>
 </ul>
+<div>
+    <h2>Começando...</h2>
+    <p>Para poder usar o <a href="https://github.com/espruino/Espruino">Espruino</a>, precisaremos atualizar nosso ESP32 com o firmware adequado.</p>
+    <img src="README\image\Espruino_screen.png">
+</div>
 </p>
