@@ -34,6 +34,7 @@ Voce ira aprender:
 <P>Em seguida, para realizar o flashing propriamente dito do firmware, a maneira mais fácil é abrir uma linha de comando e navegar até a pasta que extraímos do arquivo .zip. Para fazer isso execute os seguintes passos:</P>
 <ol>
 <li>Abra o cmd ou powershell.</li>
+<img src="README\images\cMD.png" alt="Screen" width="950" height="300">
 <li>Copie o path da pasta _esp32</li>
 <li>Abra uma linha de comando e navegue até o diretório da pasta.</li>
 </ol>
