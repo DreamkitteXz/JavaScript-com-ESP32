@@ -1,9 +1,9 @@
-<h1 align='center'>
+<h2 align='center'>
   Como utilizar JavaScript com o ESP32 e outros MCU`s
-</h1>
-<h2>
-  Visão geral 
 </h2>
+<h3>
+  Visão geral 
+</h3>
 <p>
   <a href="https://github.com/espruino/Espruino">Espruino</a> é um interpretador JavaScript muito leve que roda no ESP32 e outros microcontroladores.
   Este tutorial destina-se a quem deseja executar JavaScript em qualquer microcontrolador ESP32.
