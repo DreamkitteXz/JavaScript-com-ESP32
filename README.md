@@ -22,7 +22,7 @@ Voce ira aprender:
       <p>Antes de atualizarmos o firmware precisamos instalar o driver <a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloadso">CP210x VCP</a>. *Obs: Se você já possui o driver  instalado pule essa etapa..</p>
     <h3>Baixando os arquivos do Firmware</h3>
       <p>Para poder usar o <a href="https://github.com/espruino/Espruino">Espruino</a>, precisaremos atualizar nosso ESP32 com o firmware adequado. Os arquivos binários com o firmware podem ser obtidos <a href="http://www.espruino.com/Download">aqui</a>. após acessar o site faça o dowload do Espruino.</p>
-      <img src="README\images\Espruino_screen.png" alt="Screen" width="900" height="300">
+      <img src="README\images\Espruino_screen.png" alt="Screen" width="950" height="300">
       <p>Um arquivo .zip será baixado, dentro desse arquivo devemos extrair a pasta referente ao ESP32, geralmente o final dessa pasta termina com _esp32, conforme vemos na Figura 3. 
       </p>
       <p><img src="README\images\Pasta2.png" alt="Screen" width="950" height="300"></p>
