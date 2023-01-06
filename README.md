@@ -18,7 +18,8 @@ Voce ira aprender:
 </ul>
 <div>
     <h2>Começando...</h2>
-    <p>Para poder usar o <a href="https://github.com/espruino/Espruino">Espruino</a>, precisaremos atualizar nosso ESP32 com o firmware adequado.</p>
-    <img src="README\image\Espruino_screen.png">
+    <p>Para poder usar o <a href="https://github.com/espruino/Espruino">Espruino</a>, precisaremos atualizar nosso ESP32 com o firmware adequado. Os arquivos binários com o firmware podem ser obtidos <a href="https://github.com/espruino/Espruino">aqui</a>. após acessar o site faça o dowload do Espruino.</p>
+    <img src="README\images\Espruino_screen.png" alt="Girl in a jacket" width="600" height="300">
 </div>
+
 </p>
