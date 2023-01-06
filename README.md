@@ -36,6 +36,7 @@ Voce ira aprender:
 <li>Abra o cmd ou powershell.</li>
 <img src="README\images\cMD.png" alt="Screen" width="950" height="400">
 <li>Copie o path da pasta _esp32</li>
+<img src="README\images\FIle.png" alt="Screen" width="751" height="268">
 <li>Abra uma linha de comando e navegue até o diretório da pasta.</li>
 </ol>
 
