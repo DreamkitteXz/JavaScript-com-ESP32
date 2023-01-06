@@ -1,5 +1,19 @@
-# Welcome to GitHub Desktop!
-
-This is your README. READMEs are where you can communicate what your project is and how to use it.
-
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+<h1 align='center'>
+  Como utilizar JavaScript com o ESP32 e outros MCU`s
+</h1>
+<h2>
+  Visão geral 
+</h2>
+<p>
+  <a href="https://github.com/espruino/Espruino">Espruino</a> é um interpretador JavaScript muito leve que roda no ESP32 e outros microcontroladores.
+  Este tutorial destina-se a quem deseja executar JavaScript em qualquer microcontrolador ESP32.
+</p>
+<p>
+Voce ira aprender:
+<ul>
+    <li>Instalar os drivers necessarios</li>  
+	<li>Como atualizar o ESP32 com o firmware mais recente do <a href="https://github.com/espruino/Espruino">Espruino</a>.</li>
+	<li>Executar um JavaScript basico no ESP32</li>
+	<li>Piscar um Led usando JavaScript no ESP32</li>
+</ul>
+</p>
