@@ -25,7 +25,7 @@ Voce ira aprender:
       <img src="README\images\Espruino_screen.png" alt="Screen" width="950" height="300">
       <p>Um arquivo .zip será baixado, extraia esta pasta para área de trabalho, dentro dessa pasta devemos procurar pela pasta referente ao ESP32, geralmente o final dessa dela termina com _esp32, conforme vemos na Figura 3. 
       </p>
-      <p><img src="README\images\Pasta3.png" alt="Screen" width="950" height="300"></p>
+      <p><img src="README\images\Pasta3.png" alt="Screen" width="800" height="200"></p>
    <h3>Atualizando o Firmware</h3>
    <p>A maneira mais fácil de atualizar o firmware é usando o <a href="https://docs.espressif.com/projects/esptool/en/latest/esp32/">esptool</a>, uma ferramenta Python da <a href="https://www.espressif.com/en">Espressif</a> que nos permite atualizar o firmware no ESP32.</p>
    <p>Conforme indicado na documentação do <a href="https://github.com/espressif/esptool">repositório GitHub</a> do esptool , precisamos ter <a href="https://www.python.org/downloads/">Python 2.7</a>, <a href="https://www.python.org/downloads/">Python 3.4</a> ou uma versão superior instalada. Para instalar o esptool basta enviar o seguinte comando na linha de comando do Windows: </p>
