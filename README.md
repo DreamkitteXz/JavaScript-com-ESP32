@@ -28,16 +28,18 @@ Voce ira aprender:
       <p><img src="README\images\Pasta3.png" alt="Screen" width="800" height="200"></p>
    <h3>Atualizando o Firmware</h3>
    <p>A maneira mais fácil de atualizar o firmware é usando o <a href="https://docs.espressif.com/projects/esptool/en/latest/esp32/">esptool</a>, uma ferramenta Python da <a href="https://www.espressif.com/en">Espressif</a> que nos permite atualizar o firmware no ESP32.</p>
-   <p>Conforme indicado na documentação do <a href="https://github.com/espressif/esptool">repositório GitHub</a> do esptool , precisamos ter <a href="https://www.python.org/downloads/">Python 2.7</a>, <a href="https://www.python.org/downloads/">Python 3.4</a> ou uma versão superior instalada. Para instalar o esptool basta enviar o seguinte comando na linha de comando do Windows: </p>
+   <p>Conforme indicado na documentação do <a href="https://github.com/espressif/esptool">repositório GitHub</a> do esptool , precisamos ter <a href="https://www.python.org/downloads/">Python 2.7</a>, <a href="https://www.python.org/downloads/">Python 3.4</a> ou uma versão superior instalada. Para instalar o esptool basta abrir o cmd ou powershell e enviar o seguinte comando na linha de comando do Windows: </p>
    <p align='center'><code>pip install esptool</code></p>
 </div>
-<P>Em seguida, para realizar o flashing propriamente dito do firmware, a maneira mais fácil é abrir uma linha de comando e navegar até a pasta que extraímos do arquivo .zip. Para fazer isso execute os seguintes passos:</P>
+<P>Em seguida a maneira mais fácil para realizar o flashing do firmware é abrir uma linha de comando e navegar até a pasta que extraímos do arquivo .zip. Para fazer isso execute os seguintes passos:</P>
 <ol>
 <li>Abra o cmd ou powershell.</li>
 <img src="README\images\cMD.png" alt="Screen" width="950" height="400">
-<li>Copie o path da pasta _esp32</li>
+<li>Copie o path da pasta <code>_esp32</code></li>
 <img src="README\images\FIle.png" alt="Screen" width="751" height="268">
 <li>Abra uma linha de comando no cmd e navegue até o diretório da pasta usando o comando <code>cd</code> + <code>nome da pasta</code>.</li>
 </ol>
 <img src="README\images\ezgif.com-gif-maker (1).gif" alt="Screen" width="950" height="400">
 </p>
+<p>Precisamos dar o comando abaixo, levando em consideração o seguinte, Você precisa trocar a <code>COM11</code> pela porta COM da sua placa no seu computador;</p>
+<code>python -m esptool --port COM11 --baud 460800 write_flash --flash_size=detect 0x1000 bootloader.bin 0x10000 espruino_esp32.bin 0x8000 partitions_espruino.bin</code>
