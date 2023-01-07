@@ -23,7 +23,7 @@ Voce ira aprender:
     <h3>Baixando os arquivos do Firmware</h3>
       <p>Para poder usar o <a href="https://github.com/espruino/Espruino">Espruino</a>, precisaremos atualizar nosso ESP32 com o firmware adequado. Os arquivos binários com o firmware podem ser obtidos <a href="http://www.espruino.com/Download">aqui</a>. após acessar o site faça o dowload do Espruino.</p>
       <img src="README\images\Espruino_screen.png" alt="Screen" width="950" height="300">
-      <p>Um arquivo .zip será baixado, extraia esta pasta para área de trabalho, dentro dessa pasta devemos procurar pela pasta referente ao ESP32, geralmente o final dessa dela termina com _esp32, conforme vemos na Figura 3. 
+      <p>Um arquivo .zip será baixado, extraia esta pasta para área de trabalho, dentro dessa pasta devemos procurar pela pasta referente ao ESP32, geralmente o final dessa dela termina com <code>_esp32</code>, conforme vemos na Figura 3. 
       </p>
       <p><img src="README\images\Pasta3.png" alt="Screen" width="800" height="200"></p>
    <h3>Atualizando o Firmware</h3>
