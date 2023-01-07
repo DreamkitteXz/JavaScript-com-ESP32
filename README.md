@@ -22,10 +22,10 @@ Voce ira aprender:
       <p>Antes de atualizarmos o firmware precisamos instalar o driver <a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloadso">CP210x VCP</a>. *Obs: Se você já possui o driver  instalado pule essa etapa..</p>
     <h3>Baixando os arquivos do Firmware</h3>
       <p>Para poder usar o <a href="https://github.com/espruino/Espruino">Espruino</a>, precisaremos atualizar nosso ESP32 com o firmware adequado. Os arquivos binários com o firmware podem ser obtidos <a href="http://www.espruino.com/Download">aqui</a>. após acessar o site faça o dowload do Espruino.</p>
-      <img src="README\images\Espruino_screen.png" alt="Screen" width="950" height="300">
-      <p>Um arquivo .zip será baixado, extraia esta pasta para área de trabalho, dentro dessa pasta devemos procurar pela pasta referente ao ESP32, geralmente o final dessa dela termina com <code>_esp32</code>, conforme vemos na Figura 3. 
+      <img src="README\images\Espruino_screen.png" alt="Screen" width="1000" height="300">
+      <p>Um arquivo .zip será baixado, extraia esta pasta para área de trabalho, dentro dessa pasta devemos procurar pela pasta referente ao ESP32, geralmente o final dessa dela termina com <code>_esp32<>, conforme vemos na Figura 3. 
       </p>
-      <p><img src="README\images\Pasta3.png" alt="Screen" width="800" height="200"></p>
+      <p><img src="README\images\Pasta3.png" alt="Screen" width="900" height="200"></p>
    <h3>Atualizando o Firmware</h3>
    <p>A maneira mais fácil de atualizar o firmware é usando o <a href="https://docs.espressif.com/projects/esptool/en/latest/esp32/">esptool</a>, uma ferramenta Python da <a href="https://www.espressif.com/en">Espressif</a> que nos permite atualizar o firmware no ESP32.</p>
    <p>Conforme indicado na documentação do <a href="https://github.com/espressif/esptool">repositório GitHub</a> do esptool , precisamos ter <a href="https://www.python.org/downloads/">Python 2.7</a>, <a href="https://www.python.org/downloads/">Python 3.4</a> ou uma versão superior instalada. Para instalar o esptool basta abrir o cmd ou powershell e enviar o seguinte comando na linha de comando do Windows: </p>
