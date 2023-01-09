@@ -49,4 +49,6 @@ Voce ira aprender:
 <li>Procure por<code>PORTAS (COM & LPT)</code></li>
 </ol>
 <img src="README\images\GT4.png" alt="Screen" width="700" height="400">
+<p>Porta <code>COM11</code> trocada pela porta que o ESP32 esta. Agora execute o comando. <b>**OBS: SEGURE O BOTÃO DE BOOT ENQUANTO O COMANDO É EXECUTADO**</b></p>
+<p>Você pode conferir abaixo o resultado na linha de comando.</p>
 <img src="README\images\Untitled.png" alt="Screen" width="900" height="600">
