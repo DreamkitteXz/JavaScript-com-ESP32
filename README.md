@@ -41,6 +41,14 @@ Voce ira aprender:
 </ol>
 <img src="README\images\ezgif.com-gif-maker (1).gif" alt="Screen" width="950" height="400">
 </p>
-<p>Precisamos dar o comando abaixo, levando em consideração o seguinte, Você precisa trocar a <code>COM11</code> pela porta COM da sua placa no seu computador;</p>
-<pre><code>python -m esptool --port COM11 --baud 460800 write_flash --flash_size=detect 0x1000 bootloader.bin 0x10000 espruino_esp32.bin 0x8000 partitions_espruino.bin</code></pre>
+<p>Precisamos dar o comando abaixo, levando em consideração o seguinte, Você precisa trocar a <code>COM11</code> pela porta COM da sua placa no seu computador, para isso siga os seguintes passos:</p>
+<ol>
+<li>Clique com o botão direito em iniciar ou pesquise gerenciador de dispositivos no se PC.</li>
+<li>Abra em gerenciador de dispositivo</li>
+<li>Procure por<code>PORTAS (COM & LPT)</code></li>
+<img src="README\images\ezgif.com-gif-maker (4).gif" alt="Screen" width="751" height="268">
+</ol>
+
+<p> <code>COM11</code> pela porta COM da sua placa no seu computador, para isso siga os seguintes passos:</p>
+
 <img src="README\images\Untitled.png" alt="Screen" width="900" height="600">
