@@ -44,11 +44,12 @@ Voce ira aprender:
 <p>Precisamos dar o comando abaixo, levando em consideração o seguinte, Você precisa trocar a <code>COM11</code> pela porta COM da sua placa no seu computador, para isso siga os seguintes passos:</p>
 <ol>
 <pre><code>python -m esptool --port COM11 --baud 460800 write_flash --flash_size=detect 0x1000 bootloader.bin 0x10000 espruino_esp32.bin 0x8000 partitions_espruino.bin</code></pre>
-<li>Clique com o botão direito em iniciar ou pesquise gerenciador de dispositivos no se PC.</li>
-<li>Abra o gerenciador de dispositivo</li>
-<li>Procure por<code>PORTAS (COM & LPT)</code></li>
+<li>Clique com o botão direito em iniciar ou pesquise gerenciador de dispositivos no seu PC.</li>
+<li>Abra o gerenciador de dispositivos</li>
+<li>Procure por <code>PORTAS (COM & LPT)</code></li>
 </ol>
 <img src="README\images\GT4.png" alt="Screen" width="700" height="400">
 <p>Porta <code>COM11</code> trocada pela porta que o ESP32 esta. Agora execute o comando. <b>**OBS: SEGURE O BOTÃO DE BOOT ENQUANTO O COMANDO É EXECUTADO**</b></p>
+<pre><code>python -m esptool --port COM5 --baud 460800 write_flash --flash_size=detect 0x1000 bootloader.bin 0x10000 espruino_esp32.bin 0x8000 partitions_espruino.bin</code></pre>
 <p>Você pode conferir abaixo o resultado na linha de comando.</p>
 <img src="README\images\Untitled.png" alt="Screen" width="900" height="600">
