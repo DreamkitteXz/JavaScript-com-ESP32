@@ -16,7 +16,11 @@ Voce ira aprender:
 	<li>Executar um JavaScript basico no ESP32.</li>
 	<li>Piscar um Led usando JavaScript no ESP32.</li>
 </ul>
-<div>
+<p>IMPORTANTE:</p>
+<ul>
+<li>Versão do Windows utilizada: <b>Windows 11 version 21H2.</b></li>
+<li>Versão do Python utilizada: <b>Python 3.9.13.</b></li>
+</ul>
     <h2>Começando...</h2>
       <h3>Instalando os Drivers</h3>
       <p>Antes de atualizarmos o firmware precisamos instalar o driver <a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloadso">CP210x VCP</a>. *Obs: Se você já possui o driver  instalado pule essa etapa..</p>
@@ -51,7 +55,8 @@ Voce ira aprender:
 <img src="README\images\GT4.png" alt="Screen" width="700" height="400">
 <p>Porta <code>COM11</code> trocada pela porta que o ESP32 esta. Agora execute o comando.</p>
 <pre><code>python -m esptool --port COM5 --baud 460800 write_flash --flash_size=detect 0x1000 bootloader.bin 0x10000 espruino_esp32.bin 0x8000 partitions_espruino.bin</code></pre>
-<b>**OBS: SEGURE O BOTÃO DE BOOT ENQUANTO O COMANDO É EXECUTADO**</b>
+<b>**OBS: SEGURE O BOTÃO DE BOOT DO ESP32 ENQUANTO O COMANDO É EXECUTADO**</b>
 <p> </p>
 <p>Você pode conferir abaixo o resultado na linha de comando.</p>
 <img src="README\images\Untitled.png" alt="Screen" width="900" height="600">
+<p>Pronto agora seu ESP32 esta apto á ser programado com JS.</p>
