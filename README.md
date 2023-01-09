@@ -16,7 +16,7 @@ Voce ira aprender:
 	<li>Executar um JavaScript basico no ESP32.</li>
 	<li>Piscar um Led usando JavaScript no ESP32.</li>
 </ul>
-<p>IMPORTANTE:</p>
+<p><b>IMPORTANTE:</b></p>
 <ul>
 <li>Versão do Windows utilizada: <b>Windows 11 version 21H2.</b></li>
 <li>Versão do Python utilizada: <b>Python 3.9.13.</b></li>
@@ -60,3 +60,17 @@ Voce ira aprender:
 <p>Você pode conferir abaixo o resultado na linha de comando.</p>
 <img src="README\images\Untitled.png" alt="Screen" width="900" height="600">
 <p>Pronto agora seu ESP32 esta apto á ser programado com JS.</p>
+
+<h2>
+  Espruino IDE
+</h2>
+<p>
+A maneira mais fácil de interagir com a placa após o procedimento de flashing é usando o Espruino IDE. Há duas versões de IDE para o Espruino, uma <a href="https://www.espruino.com/ide/">Versão WEB</a> e outra versão nativa do <a href="https://www.espruino.com/Web+IDE">Windows IDE</a>. As duas versões apresentaram sucesso nos testes,fica á sua escolha qual usar.
+</p>
+<h3>
+  Espruino Web IDE
+</h3>
+<p>
+Clique na engrenagem no canto superior direito do IDE para acessar as configurações e alterar a taxa de transmissão (na categoria Comunicações) para 115200.
+<img src="README\images\Espruinoide.png" alt="Screen" width="950" height="400">
+</p>
