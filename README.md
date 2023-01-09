@@ -89,4 +89,4 @@ Ao clicar no ícone, aparecerá uma lista com as portas <code>COM</code> dispon�
 <code>console.log("Hello, World!");</code>
 
 <p>Basta colar este comado na IDE e clicar no botão RAM.
-<img src="README\images\Hello.gif" alt="Screen" width="788" height="375"></p>
+<img src="README\images\Hello.gif" alt="Screen" width="500" height="200"></p>
