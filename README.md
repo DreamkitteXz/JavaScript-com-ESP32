@@ -78,3 +78,7 @@ Para poder interagir com a placa, precisamos ir ao menu Configurações, que é 
 <p>
 <img src="README\images\115200.png" alt="Screen" width="820" height="350">
 </p>
+<p>
+Por fim, para se conectar à placa, clique no ícone superior esquerdo.
+<img src="README\images\Connection.png" alt="Screen" width="788" height="400">
+</p>
