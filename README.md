@@ -52,5 +52,6 @@ Voce ira aprender:
 <p>Porta <code>COM11</code> trocada pela porta que o ESP32 esta. Agora execute o comando.</p>
 <pre><code>python -m esptool --port COM5 --baud 460800 write_flash --flash_size=detect 0x1000 bootloader.bin 0x10000 espruino_esp32.bin 0x8000 partitions_espruino.bin</code></pre>
 <b>**OBS: SEGURE O BOTÃO DE BOOT ENQUANTO O COMANDO É EXECUTADO**</b>
+
 <p>Você pode conferir abaixo o resultado na linha de comando.</p>
 <img src="README\images\Untitled.png" alt="Screen" width="900" height="600">
