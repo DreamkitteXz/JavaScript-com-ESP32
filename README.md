@@ -72,5 +72,5 @@ A maneira mais fácil de interagir com a placa após o procedimento de flashing 
 </h3>
 <p>
 Clique na engrenagem no canto superior direito do IDE para acessar as configurações e alterar a taxa de transmissão (na categoria Comunicações) para 115200.
-<img src="README\images\Espruinoide.png" alt="Screen" width="950" height="400">
+<img src="README\images\Espruinoide.png" alt="Screen" width="950" height="300">
 </p>
