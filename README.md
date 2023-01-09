@@ -43,4 +43,4 @@ Voce ira aprender:
 </p>
 <p>Precisamos dar o comando abaixo, levando em consideração o seguinte, Você precisa trocar a <code>COM11</code> pela porta COM da sua placa no seu computador;</p>
 <pre><code>python -m esptool --port COM11 --baud 460800 write_flash --flash_size=detect 0x1000 bootloader.bin 0x10000 espruino_esp32.bin 0x8000 partitions_espruino.bin</code></pre>
-
+<img src="README\images\Untitled.png" alt="Screen" width="1052" height="730">
