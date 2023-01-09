@@ -48,5 +48,5 @@ Voce ira aprender:
 <li>Abra o gerenciador de dispositivo</li>
 <li>Procure por<code>PORTAS (COM & LPT)</code></li>
 </ol>
-<img src="README\images\GT.gif" alt="Screen" width="500" height="300">
+<img src="README\images\GT4.png" alt="Screen" width="500" height="300">
 <img src="README\images\Untitled.png" alt="Screen" width="900" height="600">
