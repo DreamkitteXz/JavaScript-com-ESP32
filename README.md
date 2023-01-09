@@ -88,4 +88,7 @@ Ao clicar no ícone, aparecerá uma lista com as portas <code>COM</code> dispon�
 <p>Escreveremos um comando Hello World simples. Para isso, basta digitar o seguinte comando:</p>
 <p align='center'><code>console.log("Hello, World!");</code></p>
 <p>Basta colar este comado na IDE e clicar no botão <code>RAM.</code>
+<P>
 <img src="README\images\K.png" alt="Screen" width="788" height="350"></p>
+</P>
+<h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" height="30px">Pronto! Seu ESP32 esta rodando JavaScript <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" height="30px"> </h2>
