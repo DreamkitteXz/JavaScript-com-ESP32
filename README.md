@@ -85,8 +85,7 @@ Ao clicar no ícone, aparecerá uma lista com as portas <code>COM</code> dispon�
 <img src="README\images\ports.png" alt="Screen" width="788" height="375">
 </p>
 <h2>Hello World</h2>
-<p>Escreveremos um comando Hello World simples. Para isso, basta digitar o seguinte comando:</p>
-<code>console.log("Hello, World!");</code>
-
+<p>Escreveremos um comando Hello World simples. Para isso, basta digitar o seguinte comando:
+<code>console.log("Hello, World!");</code></p>
 <p>Basta colar este comado na IDE e clicar no botão RAM.
-<img src="README\images\Hello.gif" alt="Screen" width="1000" height="450"></p>
+<img src="README\images\K.png" alt="Screen" width="788" height="350"></p>
