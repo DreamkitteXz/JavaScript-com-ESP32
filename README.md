@@ -48,5 +48,5 @@ Voce ira aprender:
 <li>Abra o gerenciador de dispositivo</li>
 <li>Procure por<code>PORTAS (COM & LPT)</code></li>
 </ol>
-<img src="README\images\ezgif.com-gif-maker (5).png" alt="Screen" width="900" height="600">
+<img src="README\images\ezgif.com-gif-maker (5).gif" alt="Screen" width="900" height="600">
 <img src="README\images\Untitled.png" alt="Screen" width="900" height="600">
