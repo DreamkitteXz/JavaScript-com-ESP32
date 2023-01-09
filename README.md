@@ -81,4 +81,6 @@ Para poder interagir com a placa, precisamos ir ao menu Configurações, que é 
 <p>
 Por fim, para se conectar à placa, clique no ícone superior esquerdo.
 <img src="README\images\Connection.png" alt="Screen" width="788" height="350">
+Ao clicar no ícone, aparecerá uma lista com as portas <code>COM</code> disponíveis. Escolha a porta COM correta para sua placa.
+<img src="README\images\ports.png" alt="Screen" width="788" height="350">
 </p>
