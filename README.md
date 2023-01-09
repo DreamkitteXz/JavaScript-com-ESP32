@@ -76,5 +76,5 @@ Para poder interagir com a placa, precisamos ir ao menu Configurações, que é 
 </p>
 <p> </p>
 <p>
-<img src="README\images\115200.png" alt="Screen" width="809" height="400">
+<img src="README\images\115200.png" alt="Screen" width="788" height="400">
 </p>
