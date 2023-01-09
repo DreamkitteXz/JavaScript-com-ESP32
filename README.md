@@ -71,6 +71,10 @@ A maneira mais fácil de interagir com a placa após o procedimento de flashing 
   Espruino Web IDE
 </h3>
 <p>
-Clique na engrenagem no canto superior direito do IDE para acessar as configurações e alterar a taxa de transmissão (na categoria Comunicações) para 115200.
+Para poder interagir com a placa, precisamos ir ao menu Configurações, que é aberto clicando no ícone superior direito. Lá, vá para a aba de comunicações e na entrada Baud Rate altere o valor suspenso para 115200.
 <img src="README\images\ES.png" alt="Screen" width="788" height="400">
+</p>
+<p> </p>
+<p>
+<img src="README\images\ES.png" alt="Screen" width="809" height="400">
 </p>
